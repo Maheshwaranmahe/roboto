@@ -1,0 +1,559 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.navcontainer{
+  position: relative;
+  height: 100px;
+  width: 100%;
+  background-color: #000;
+}
+.logo{
+  position: absolute;
+  height: 30px;
+  left: 7%;
+  top: 32%;
+}
+.logo img{
+  height: 100%;
+  width: 100%;
+}
+.toggle, [id^=drop] {
+ display: none;
+}
+.menu{
+    position: relative;
+    text-align: center;
+    top: 35px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+nav ul li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 0 15px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+nav ul li ul li:hover {
+  background:#000; 
+}
+nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: red;
+  text-align: left;
+}
+nav ul li:hover>ul { 
+  display: inherit; 
+}
+nav ul ul li {
+  width: auto;
+  float: none;
+  line-height: 70px;
+  display: list-item;
+  position: relative;
+}
+.inquery h3{
+    color: #fff;
+    float: right;
+    padding-right: 20px;
+}
+.inquery span{
+    color: #3700ff;
+}
+.btn1{
+  padding: 5px;
+  font-weight: 600;
+  background-color: #000;
+  color: green;
+  border: 1px solid green;
+}
+.btn1:hover{
+  background-color: #0094b9;
+  color: #fff;
+  border: #0094b9;
+}
+
+.home{
+    height: 45%;
+    background: url(images/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+}
+.home h1{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+.home h3{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: #fff;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.build{
+    position: relative;
+    top: 1px;
+    height: 140%;
+}
+.build h1{
+    margin: 5% 0% 5% 30%;
+    font-size: 35px;
+    font-weight: 100;
+}
+.build .container1{
+    position: absolute;
+    width: 40%;
+    left: 10%;
+    font-size: 20px;
+    color: #817c7c;
+}
+.build .container1 .build-img{
+    width: 90%;
+    background-color: blue;
+    margin: 5% 5%;
+}
+.build .container1 .build-img img{
+    width: 100%;
+}
+.build .container2{
+    position: absolute;
+    width: 35%;
+    right: 10%;
+    font-size: 20px;
+}
+.build .container2 .table{
+    width: 100%;
+    border-collapse: collapse;
+    color: #817c7c;
+}
+td, th {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 10px;
+}
+.btn2{
+    width: 100%;
+    padding: 20px;
+    color: #1a80d3;
+    background-color: #fff;
+    border: 1px solid #1a80d3;
+}
+.btn2:hover{
+    background-color: #0094b9;
+    color: #fff;
+    border: #0094b9;
+}
+
+.card{
+  margin-bottom: 5%;
+}
+.card .container{
+    position: relative;
+    width: 70%;
+    left: 15%;
+}
+.card .container h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 3%;
+}
+.card .container p{
+    font-size: 20px;
+    color: #393939;
+    padding-bottom: 20px;
+}
+.card1{
+    height: auto;
+    width: 90%;
+    background-color: #0d6efd;
+    color: #fff;
+    padding-bottom: 10%;
+    margin-left: 30px;
+}
+.card1 h1{
+    text-align: center;
+    padding: 10%;
+}
+.icon{
+    background-color: #817c7c;
+    color: #4b4848;
+    padding: 20px;
+    width: 40px;
+    margin-left: 40%;
+    border-radius: 50%;
+    font-size: 40px;
+}
+.card .th, .td{
+    border: none;
+    width: 60%;
+    font-size: 20px;
+}
+.i{
+    padding-left: 4px;
+    color: #fff;
+}
+table{
+    padding: 10px;
+}
+.card-body{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.card2{
+  height: auto;
+  width: 90%;
+  background-color: #ffea00;
+  color: #fff;
+  padding-bottom: 10%;
+  margin-left: 30px;
+}
+.card2 h1{
+  text-align: center;
+  padding: 10%;
+}
+.card3{
+  height: auto;
+  width: 90%;
+  background-color: #000;
+  color: #fff;
+  padding-bottom: 10%;
+  margin-left: 30px;
+}
+.card3 h1{
+  text-align: center;
+  padding: 10%;
+}
+
+.why{
+  background: url(images/span.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5%;
+}
+.why h1{
+  color: #ffc400;
+  width: 60%;
+  font-size: 50px;
+  font-weight: lighter;
+  margin-left: 20%;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+.why h1 span{
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+.why p{
+  width: 70%;
+  margin-left: 15%;
+  color: #fff;
+  font-size: 23px;
+  text-align: center;
+}
+
+.ready-container{
+  width: 60%;
+  text-align: center;
+  margin-left: 20%;
+  padding: 5%;
+}
+.ready h1{
+  color: #000;
+  font-size: 40px;
+  font-weight: lighter;
+  padding-bottom: 4%;
+}
+.ready p{
+  color: #606060;
+  font-size: 25px;
+  padding-bottom: 3%;
+}
+.ready span{
+  font-size: 20px;
+  color: #717171;
+}
+.btn3{
+  margin-top: 5%;
+  width: 100%;
+  padding: 20px;
+  color: #1a80d3;
+  border: 1px solid #1a80d3;
+}
+.btn3:hover{
+  background-color: #0094b9;
+  color: #fff;
+  border: #0094b9;
+}
+
+.course{
+  background-color: #17005a;
+}
+.course-container{
+  width: 60%;
+  margin-left: 20%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+.course h1{
+  color: #fff;
+  font-size: 45px;
+  font-weight: lighter;
+  padding-top: 10%;
+}
+.course span{
+  color: #ffc400;
+}
+.course p{
+  color: #ebe7e7;
+  font-size: 25px;
+  padding-top: 5%;
+}
+.cards{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 25px;
+  padding: 0 0 5% 1%;
+}
+.card-1{
+  background-color: #fff;
+  padding-bottom: 5%;
+}
+.card-image{
+  position: relative;
+  height: 80%;
+  width: 90%;
+  top: 5%;
+  left: 5%;
+  right: 5%;
+}
+.card-1 img{
+  height: 100%;
+  width: 100%;
+}
+.card-1 h1{
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+footer{
+  background-color: #000;
+}
+.footer-container{  
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5% 0 5% 10%;
+}
+footer .card-card p{
+  color: #d8c5c5;
+  padding-bottom: 10px;
+}
+footer .card-card img{
+  width: 200px;
+  margin-bottom: 5%;
+}
+.card-card h4{
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 3%;
+}
+.card-card a{
+  color: #6b5aa9;
+}
+.footer-icon{
+  display: inline-flex;
+}
+.fb{
+  color: #fff;
+  background-color: #17005a;
+  width: 60px;
+  padding: 10%;
+  font-size: 40px;
+  border-radius: 50%;
+}
+.you{
+  color: #fff;
+  background-color: #ff0000;
+  width: 60px;
+  padding: 10%;
+  font-size: 40px;
+  border-radius: 50%;
+}
+.what{
+  color: #fff;
+  background-color: green;
+  width: 40px;
+  padding: 5%;
+  font-size: 40px;
+  border-radius: 50%;
+}
+
+
+@media all and (max-width : 768px) {  
+nav { 
+  margin: 0;
+  float: left; 
+}
+.logo{
+  position: absolute;
+  left: 70%;
+}
+.toggle ~ a,
+ .menu { 
+  display: none; 
+}
+.toggle {
+  display: block;
+  background-color: black;
+  padding: 0 20px;
+  color: white;
+  font-size: 22px;
+  font-weight:bold;
+  line-height: 60px;
+}
+.toggle:hover { 
+  background-color: red; 
+}
+[id^=drop]:checked ~ ul { 
+  display: block; 
+}
+nav ul li {
+  display: block;
+  width: 100%;
+}
+nav ul ul .toggle,
+ nav ul ul a { 
+  padding: 0 40px; 
+}
+nav ul ul ul a { 
+  padding: 0 80px; 
+}
+nav a:hover,
+ nav ul ul a { 
+  background-color: blue; 
+  color: white;
+}
+nav ul li ul li .toggle,
+ nav ul ul a { 
+  background-color: black; 
+}
+nav {
+  position: absolute;
+}
+nav ul ul {
+  float: none;
+  position: static;
+  color: white;
+}
+nav ul li:hover > ul { 
+  display: none; 
+}
+nav ul ul li {
+  display: block;
+  width: 100%;
+  margin-top: 2%;
+}
+nav ul ul ul li { 
+  position: static;
+}
+.inquery{
+  display: none;
+}
+
+.home h1{
+  font-size: 50px;
+}
+.home h3{
+  font-size: 20px;
+  top: 55%;
+}
+.build{
+  height: 280%;
+}
+.build h1{
+  text-align: center;
+  margin-left: 0;
+}
+.build-img img{
+  margin-left: 0%;
+}
+.build .container1{
+  width: 90%;
+  left: 5%;
+}
+.build .container2{
+  width: 90%;
+  right: 5%;
+  top: 55%;
+}
+.card .container{
+  width: 90%;
+  left: 5%;
+}
+.card .container h1{
+  font-size: 30px;
+}
+.card-body{
+  display: grid;
+  grid-template-columns: auto;
+  gap: 30px;
+}
+.why h1{
+  width: 90%;
+  font-weight: lighter;
+  margin-left: 5%;
+}
+.why p{
+  width: 100%;
+  margin-left: 0;
+}
+.ready-container{
+  width: 90%;
+  margin-left: 0;
+}
+.course-container{
+  width: 90%;
+  margin-left: 50%;
+}
+.cards{
+  display: grid;
+  grid-template-columns: auto;
+}
+.card-1{
+  width: 90%;
+  margin-left: 5%;
+}
+.footer-container{
+  padding-top: 20%;
+  display: grid;
+  grid-template-columns: auto;
+}
+.card-card{
+  padding-bottom: 10%;
+}
+
+
+}
